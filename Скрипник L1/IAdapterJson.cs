@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab1
+{
+    public interface IAdapterJson
+    {
+        string ConvertToJson(List<User> userList);
+
+        List<User> ConvertFromJson(string strJson);
+    }
+}
